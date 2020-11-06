@@ -1,0 +1,46 @@
+* {box-sizing: border-box}
+ input[type=text], input[type=password] {
+  width:100%;
+  padding: 15px;
+  margin: 5px 0 5px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+.container {
+	border: 1px solid;
+	border-color: #9a9a9a;
+	background: #fff;
+	border-radius: 4px;
+	padding: 10px;
+	width: 350px;
+	margin: 40px auto;
+}
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+.txt{
+    text-align: center;
+}
+.redirect{
+    float: right;
+    
+}
+.user{
+    font-size: 22px;
+}
+.alert{
+	color: red;
+}
